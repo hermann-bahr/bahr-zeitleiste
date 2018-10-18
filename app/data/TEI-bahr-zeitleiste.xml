@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/martinantonmueller/bahr-zeitleiste/master/app/documentation/odd/out/bahr-zeitleiste.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/martinantonmueller/bahr-zeitleiste/master/odd/out/bahr-zeitleiste.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zeitleiste">
    <teiHeader>
@@ -24,11 +24,17 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Im Zuge des Forschungsprojekts zu Hermann Bahr an der Universität Wien entstand zwischen 2009 und 2012 eine Zeitleiste, die etwa 2000 Einträge enthält.</p> 
-            <p>Leider wurde die Entwicklung des für die Präsentation verwendeten Tools kurz nach Ende der Projektlaufzeit eingestellt. 2018 wurden die Daten exportiert und in TEI umgewandelt. 
-            Als solche lassen sie sich für eine neue Version der Zeitleiste verwenden.</p> 
-            <p>Dazu zwei Einschränkungen: Die Zeitleiste war stets ein Nebenprodukt, eine ordentliches Lektorat gab es nie. 
-            Zweitens: In der ursprünglichen Präsentation wurden die Daten nicht eingeblendet, so dass auch ungefähre Daten mit fiktiven, exakten Daten angegeben wurden. (Deshalb ist das eigentliche Datum stets im Fließtext versteckt.)</p>
+            <p>Im Zuge des Forschungsprojekts zu Hermann Bahr an der Universität Wien entstand
+               zwischen 2009 und 2012 eine Zeitleiste, die etwa 2000 Einträge enthält.</p>
+            <p>Leider wurde die Entwicklung des für die Präsentation verwendeten Tools kurz nach
+               Ende der Projektlaufzeit eingestellt. 2018 wurden die Daten exportiert und in TEI
+               umgewandelt. Als solche lassen sie sich für eine neue Version der Zeitleiste
+               verwenden.</p>
+            <p>Dazu zwei Einschränkungen: Die Zeitleiste war stets ein Nebenprodukt, eine
+               ordentliches Lektorat gab es nie. Zweitens: In der ursprünglichen Präsentation wurden
+               die Daten nicht eingeblendet, so dass auch ungefähre Daten mit fiktiven, exakten
+               Daten angegeben wurden. (Deshalb ist das eigentliche Datum stets im Fließtext
+               versteckt.)</p>
          </projectDesc>
       </encodingDesc>
    </teiHeader>
@@ -420,7 +426,7 @@
                   Einvernehmen mit dem Vater das Studium für beendet erklärt und Bahr zur Kur in die
                   Nähe von Salzburg befohlen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1887-05-21" to="1887-09-22" xml:id="node74485">
                <head>Salzburg, Linz</head>
@@ -479,7 +485,7 @@
                   Kollegium bestünde, also das Geld umsonst ausgegeben wäre. Bahr beginnt eine neue,
                   die er nie fertig stellt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1885-11-22" xml:id="node74481">
                <head>Heinrich Braun</head>
@@ -552,7 +558,7 @@
                   Folge muss er ein paar Wochen täglich zum Frisör und eine Perücke tragen bis die
                   Haare nachgewachsen sind.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1884-08-15" to="1884-10-14" xml:id="node74476">
                <head>Linz</head>
@@ -751,7 +757,7 @@
                <p>Am 27. Jänner 1947 stirbt Anna Bahr-Mildenburg in Wien. Ihre letzte Grabstätte
                   findet sie bei Hermann Bahr in Salzburg.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1904-10-28" xml:id="node74459">
                <head>Hartleben, Friedell, Löwe</head>
@@ -986,7 +992,7 @@
                   <quote>Herwirsch, Gabriele. Bmt.Wtwe., Landhausgasse 4</quote>
                </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" when="1883-06-27" xml:id="node74436">
                <head>Jassy</head>
@@ -1015,7 +1021,7 @@
                   Wurstl)<lb/> Fritz Bilburer, cand. jur.<lb/> Eduard Mazella al. Roland</p>
                <p>Mit Sommersemester '85 beschriftet:<lb/> Länzchen</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1913-09-29" xml:id="node74433">
                <head>Bahr-Feier, Linz</head>
@@ -2172,7 +2178,7 @@
                   Kleinoktav-Druckseiten. Abzuliefern bis 1. September 1906. Diese Studie wurde nie
                   realisiert, Bahr hat bei Bard nur den Dialog vom Marsyas veröffentlicht. </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1911-12-29" xml:id="node64285">
                <head>Erziehung</head>
@@ -9412,7 +9418,7 @@
                   selbst mit dem im Vorjahr erschienenen Band »Inventur«, der seine katholische
                   Wandlung ankündigt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1913-08-18" xml:id="node49340">
                <head>Barock-Buch</head>
@@ -15832,7 +15838,7 @@
                   die bis 1932 zu über 60 Texten führte, die er beim ersten Zeitungskonzern
                   Deutschlands unterbrachte. </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" when="1912-02-01" xml:id="node39027">
                <head>Siedelt nach Salzburg</head>
@@ -16590,7 +16596,7 @@
                <!--<desc>-->
                <p>Um 1900 ist Bahr Berater des Deutschen Volkstheaters.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1894-01-01" xml:id="node38980">
                <head>Concordia</head>
@@ -16598,7 +16604,7 @@
                <p>1894 tritt Bahr in den Schriftstellerverband »Concordia« ein und bleibt bis zu
                   seinem Tod Mitglied. Von 1900 bis 1902 ist er Vizepräsident.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1900-03-15" xml:id="node38979">
                <head>Vizepräsident Concordia</head>
@@ -16643,7 +16649,7 @@
                </p>
                <p> Das Treffen dürfte also während Bahrs Waffenübung erfolgt sein.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1897-02-27" xml:id="node38977">
                <head>Das Tschaperl</head>
@@ -16809,7 +16815,7 @@
                   der Sitzung der Männer soll Bahr am 19. der Hauptredner sein.<lb/>Berliner
                   Börsen-Courier, 20.6.1913</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1911-12-28" to="1911-12-30" xml:id="node38965">
                <head>Czernowitz</head>
@@ -17791,7 +17797,7 @@
                <p>31. Oktober 1890: Treffen mit Leo Berg<lb/>Brief Leo Bergs an Heinrich Hart in: Im
                   Netzwerk der Moderne, 157</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1890-05-18" xml:id="node38879">
                <head>Leo Berg</head>
@@ -17799,7 +17805,7 @@
                <p>Am 18. Mai 1890 bedauert Bahr, dass er Leo Berg verpasst hätte.<lb/>Brief an Leo
                   Berg in: Im Netzwerk der Moderne, 150.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1898-10-28" to="1898-10-30" xml:id="node38873">
                <head>München</head>
@@ -18012,7 +18018,7 @@
                   Wort, 1 (1911) #7, 22. (1.6.1911)<lb/>Ton und Wort, 1 (1911) #9, 8.
                   (15.9.1911)</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1932-04-01" xml:id="node38859">
                <head>Hitler</head>
@@ -18058,7 +18064,7 @@
                <p>Möglicherweise hatte sie ein Büro, wo sie Gesangsschüler empfangen konnte? Aber
                   schon im folgenden Jahr wohnen beide in der Bauerstraße.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" when="1922-07-01" xml:id="node38857">
                <head>Barerstr. 50, 1. Stock</head>
@@ -18084,7 +18090,7 @@
                   der Adresse Maximilianstr. 4, also direkt neben der Staatsoper. Hier dürfte also
                   auch Bahr abgestiegen sein, wenn er aus Salzburg zu Besuch kam.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1916-07-01" xml:id="node38855">
                <head>Landau</head>
@@ -18218,7 +18224,7 @@
                   auf den Dichter als Verkünder transzendenter Wahrheiten und den Menschen als
                   Misanthropen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Journalismus" when="1924-11-15" xml:id="node38848">
                <head>Münchner Neueste Nachrichten</head>
@@ -18229,7 +18235,7 @@
                   Text im August 1932 werden Bahrs Beiträge immer kürzer, zuletzt verfasst er fast
                   ausschließlich kleine Betrachtungen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Journalismus" from="1927-10-14" to="1929-07-02" xml:id="node38847">
                <head>Münchner Telegramm-Zeitung</head>
@@ -18625,7 +18631,7 @@
                   gemeinsamer Herausgeber mit Isidor Singer und Heinrich Kanner. Nunmehr schreibt er
                   nahezu exklusiv für dieses Blatt bis zu seinem Ausscheiden im September 1899.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Journalismus" when="1898-01-01" xml:id="node38825">
                <head>Ver Sacrum</head>
@@ -18866,7 +18872,7 @@
                   dass es ein großer Erfolg war und kündigt für Anfang März den gleichen Vortrag in
                   München an.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1897-01-14" xml:id="node38807">
                <head>Fechten</head>
@@ -19060,7 +19066,7 @@
                   ein, zwei Jahre zappeln zu lassen, bis sich geklärt habe, ob seine Projekte zur
                   Übernahme eines Theaters etwas würden.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1896-09-04" xml:id="node38794">
                <head>Währingertheater II</head>
@@ -19180,7 +19186,7 @@
                   Erzherzog Albrechts kurzfristig abgesagt. Trotzdem war Bahr stolz darauf, zu den
                   oberen 1600 zu gehören.<lb/>Brief an den Vater, [18.2.1895]</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1894-10-29" xml:id="node38787">
                <head>Burgtheater</head>
@@ -19198,7 +19204,7 @@
                      Leute.</quote>
                </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1894-08-25" xml:id="node38786">
                <head>Burckhard</head>
@@ -19209,7 +19215,7 @@
                   die Fäden zog und war auch deswegen Burckhardt sehr zugetan und verteidigte ihn
                   publizistisch, als er abgelöst wurde.<lb/>Brief an den Vater, 26.8.1894</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1874-07-01" xml:id="node38785">
                <head>Anna Bahr</head>
@@ -19219,7 +19225,7 @@
                   heiratet sie Karl Wilhelm Buz, dem sie nach Augsburg folgt, wo sie 1944
                   stirbt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" from="1894-08-06" to="1894-08-09" xml:id="node38784">
                <head>Hochzeit Anna Bahr/Buz</head>
@@ -19444,7 +19450,7 @@
                <p>Nach dem kurzen Aufenthalt am Franziskanerplatz ist Bahr am 11. Mai 1891 in die
                   Himmelpfortgasse 11 übersiedelt, wieder im 1. Wiener Gemeindebezirk.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1891-04-28" to="1891-05-10" xml:id="node38770">
                <head>Franciscanerplatz 5</head>
@@ -19621,7 +19627,7 @@
                   dürfte. In anderer Hinsicht ist er (noch) ganz der Alte: Auf die Gegner Boulangers
                   reagiert er mit antisemitischen Tiraden.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1888-11-06" to="1888-11-14" xml:id="node38759">
                <head>München - Stuttgart - Karlsruhe - Straßburg</head>
@@ -19692,7 +19698,7 @@
                   Française, er sieht, wie er am 29. seinem Vater schreibt, eine Aufführung von
                   Corneilles Le Cid und Molières »Les précieuses ridicules«. </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1940-02-17" xml:id="node38754">
                <head>Rosa Bahr ✝</head>
@@ -19700,7 +19706,7 @@
                <p>Die erste Frau von Bahr, Rosa Bahr, stirbt am 17. Februar 1940 in Berlin und wird
                   in Weißensee begraben.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1892-10-01" xml:id="node38753">
                <head>Graz, Brünn, Prag</head>
@@ -19784,7 +19790,7 @@
                   1930 geführte schriftliche Austausch ist 1980 von Fritz Fellner herausgegeben
                   worden.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1919-01-18" xml:id="node38745">
                <head>Karl Schönherr</head>
@@ -19843,7 +19849,7 @@
                <p>Im November 1891 hält Bahr im »Deutschen Klub« in Linz seinen Vortrag »Moderne
                   Mystik«, den er im März in Wien wiederholt. </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1892-03-29" xml:id="node38718">
                <head>Moderne Mystik</head>
@@ -20083,7 +20089,7 @@
                   9, 1. Stiege, 2. Stock, Tür 15. Er verpflichtet die Wirtin, ihn zu jeder Tageszeit
                   zu wecken und bezahlt monatlich 16 fl. und zusätzlich 3 fl. für Kaffee. </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1886-07-14" xml:id="node38687">
                <head>Chefredakteur der Gleichheit?</head>
@@ -20102,7 +20108,7 @@
                   wirklich das Angebot eines Chefredakteurs hatte, oder er dies nur seinem Vater
                   gegenüber erfunden hat, ist offen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1886-05-01" xml:id="node38686">
                <head>Viktor Adler</head>
@@ -20151,7 +20157,7 @@
                <p>Anna Bahr-Mildenburg, Solosängerin in der Hofoper, scheint ebenfalls unter der
                   Adresse von Bahrs Olbrich-Haus auf.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1903-06-11" xml:id="node28305">
                <head>Theatergründung</head>
@@ -20383,7 +20389,7 @@
                   Absender steht am Briefkopf: »Wien III Heumarkt 9«.<lb/>Bölsche: Briefwechsel mit
                   den Autoren der Freien Bühne, 706. [#309]</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Journalismus" when="1890-07-26" xml:id="node28263">
                <head>Austritt Freie Bühne</head>
@@ -20557,7 +20563,7 @@
                </p>
                <p>Berliner Tageblatt, 20 (1891) #5, 2. Beiblatt, 1. (4.1.1891)</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1908-08-01" to="1908-08-19" xml:id="node28229">
                <head>Levico</head>
@@ -20607,7 +20613,7 @@
                   Bahr seine Kolumne wieder. Diesmal für das Blatt Morgen, wo es zwischen 31. Januar
                   und 4. Dezember 1908 neunmal erscheint.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" from="1908-09-23" to="1908-09-27" xml:id="node28226">
                <head>Pressekongress</head>
@@ -20727,7 +20733,7 @@
                      bahr</quote>
                </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1918-06-13" to="1918-06-19" xml:id="node28214">
                <head>Beuron</head>
@@ -20762,28 +20768,28 @@
                <!--<desc>-->
                <p>Am 20. November 1912 liest Bahr in Basel.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1911-11-19" xml:id="node28211">
                <head>Konstanz</head>
                <!--<desc>-->
                <p>Am 19. November 1911 liest Bahr in Konstanz</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1912-11-18" xml:id="node28210">
                <head>Winterthur</head>
                <!--<desc>-->
                <p>Am 18. November 1912 liest Bahr in Winterthur</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1912-11-17" xml:id="node28209">
                <head>München</head>
                <!--<desc>-->
                <p>Am 17. November 1912 liest Bahr in München.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" from="1912-01-25" to="1912-02-16" xml:id="node28208">
                <head>Vortragsreise Deutschland</head>
@@ -20817,7 +20823,7 @@
                   Notizen vom April und Mai unter. Ein weiteres Mal, im September, erscheint hier
                   ein »Tagebuch«, dann endet auch diese Zusammenarbeit.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Tagebuecher" when="1911-03-16" xml:id="node28206">
                <head>Pan</head>
@@ -20825,7 +20831,7 @@
                <p>In der Nummer 10 des »Pan«, das am 16.3.1911 erscheint, veröffentlicht Bahr ein
                   einziges »Tagebuch«.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Tagebuecher" when="1911-09-01" xml:id="node28205">
                <head>Der Strom</head>
@@ -20833,7 +20839,7 @@
                <p>Im September-Heft der Zeitschrift »Der Strom« erscheint der zweite und letzte
                   »Tagebuch«-Eintrag bis zur Wiederaufnahme im Neuen Wiener Journal 1916.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1917-04-28" xml:id="node28204">
                <head>Österreich über alles</head>
@@ -21002,7 +21008,7 @@
                   handeln.<lb/>Deutsche Zeitung, 23 (1893) #7739, 6. (15.7.1893)<lb/>Vgl. Neue Freie
                   Presse, #10498, Morgenblatt, 1–2. (12.11.1893)</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" when="1911-02-08" xml:id="node28192">
                <head>Bromberg, Hamburg</head>
@@ -21187,7 +21193,7 @@
                <!--<desc>-->
                <p>Bei der Beisetzung in Salzburg am 19. Jänner 1934 stürmt und regnet es.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1918-04-20" xml:id="node28177">
                <head>Ganghofer</head>
@@ -21195,7 +21201,7 @@
                <p>Zum 20. April 1918 vermerkt Bahr in seinem »Tagebuch«, dass er nach dem Konzert
                   seiner Frau in München mit Ludwig Ganghofer und Gattin Catharina zusammensaß.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Journalismus" from="1882-09-24" to="1883-09-02" xml:id="node28176">
                <head>Linzer Sonntagsblatt</head>
@@ -21286,7 +21292,7 @@
                   glücklich, weil er eine Frau habe, die ihm alles sei, Musik und »die innere
                   Freiheit eines Lebenskünstlers, der sich zum Siege durchgerungen hat.«</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1911-03-05" xml:id="node28171">
                <head>Beethoven-Wagner-Abend</head>
@@ -21335,7 +21341,7 @@
                   für Urheberrechtsfragen im Bereich Literatur in Wien bestellt. Am 25.1.1920 (#20,
                   1) vermerkt das selbe Blatt, dass Bahr wiederbestellt wurde. </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" from="1911-03-16" to="1911-03-17" xml:id="node28168">
                <head>Theatergesetz-Enquete</head>
@@ -21418,7 +21424,7 @@
                <!--<desc>-->
                <p>Am 30. Oktober 1921 ist Bahr bei Thomas Mann in München zum Tee.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1926-10-27" xml:id="node28160">
                <head>Preußische Akademie der Wissenschaften, Sektion für Dichtkunst</head>
@@ -21428,7 +21434,7 @@
                   gewählt, darunter Hermann Bahr, Arthur Schnitzler und Hugo von Hofmannsthal (der
                   die Wahl ablehnt).</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1920-03-10" xml:id="node28159">
                <head>Pascal</head>
@@ -21530,7 +21536,7 @@
                <p>Am 22. März 1918 besucht Bahr mit seiner Frau den Mahler-Abend des Mozarteums.
                   (Tagebuch vom 23.)</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1908-02-25" xml:id="node28150">
                <head>Hamburg</head>
@@ -21549,7 +21555,7 @@
                   Festrede halten. Statt seiner wird die Rede Bahrs von Oberregisseur Max Devrient
                   vorgetragen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1923-03-02" xml:id="node28146">
                <head>Das Reich Gottes</head>
@@ -21633,7 +21639,7 @@
                   Vereines »Freie Schule«. Das ist noch nicht der bekanntere Vortrag, den Bahr 1911
                   hielt und der gedruckt wurde.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1909-10-24" xml:id="node28138">
                <head>Liliencron-Feier</head>
@@ -21641,7 +21647,7 @@
                <p>Am 24.10.1909 tritt Hermann Bahr auf der Freien Volksbühne in Wien bei der
                   Liliencron-Feier auf.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1933-07-19" xml:id="node28137">
                <head>Bibliothek Schenkung</head>
@@ -21650,7 +21656,7 @@
                   (heute Universitätsbibliothek). Die feierliche Eröffnung findet an Bahrs 70.
                   Geburtstag, am 19. Juli 1933 statt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1897-10-31" xml:id="node28136">
                <head>Mark Twain</head>
@@ -21671,7 +21677,7 @@
                   das bereits seit Oktober 1920 in Vorabdrucken in der Wochenzeitung Das Neue Reich
                   veröffentlicht wurde. Dort erschien der letzte Abschnitt am 16. Juni 1923.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Journalismus" when="1893-11-06" xml:id="node28133">
                <head>Mitherausgeber</head>
@@ -21681,7 +21687,7 @@
                   haften. Diese Klausel war nicht nötig, im folgenden Monat endet Bahr seine
                   Tätigkeit für das Blatt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Vortrag" when="1922-10-22" xml:id="node28131">
                <head>Christliche Wahrheit</head>
@@ -21757,7 +21763,7 @@
                <p>Bahr besucht am 23. Juni 1908 die Kunstschau in der Lothringerstr. (nächst dem
                   Schwarzenbergplatz)</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1908-06-22" xml:id="node28125">
                <head>Götterdämmerung</head>
@@ -21765,7 +21771,7 @@
                <p>Bei der Aufführung der »Götterdämmerung« am 22. Juni 1908 an der Wiener Hofoper
                   erlebt Bahr »ganz unsinnige Ovationen« für Anna Mildenburg.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1908-05-05" to="1908-05-16" xml:id="node28124">
                <head>Berlin, Prag</head>
@@ -21803,7 +21809,7 @@
                <!--<desc>-->
                <p>Am 26. März 1908 ist Bahr in seinem Haus in Hietzing.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1904-12-29" xml:id="node28121">
                <head>Liebesbeziehung</head>
@@ -21812,7 +21818,7 @@
                   1904 auch den Beginn der sexuellen Beziehung zwischen Hermann Bahr und Anna
                   Mildenburg.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1904-11-16" xml:id="node28120">
                <head>Bei Mildenburg</head>
@@ -21910,7 +21916,7 @@
                <p>Am 11. September 1910 ist Bahr in München bei der Generalprobe von Gustav Mahlers
                   8. Symphonie.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1908-06-19" xml:id="node28113">
                <head>»Rahl« beendet</head>
@@ -21977,7 +21983,7 @@
                <p>Bahr besucht am 21. Juni »Die Götterdämmerung« in der Wiener Hofoper, in der Anna
                   Mildenburg die Brünnhilde singt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1907-05-03" to="1907-05-08" xml:id="node28107">
                <head>Triest, Grado, Abbazia</head>
@@ -21998,14 +22004,14 @@
                <!--<desc>-->
                <p>Am 27.4.1907 reist Bahr vom Südbahnhotel am Semmering nach Triest.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Person" when="1907-03-29" xml:id="node28105">
                <head>Mildenburg</head>
                <!--<desc>-->
                <p>Am 29. März 1907 Treffen mit Anna Mildenburg in Salzburg</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1907-01-02" to="1907-01-04" xml:id="node28104">
                <head>Semmering</head>
@@ -22136,7 +22142,7 @@
                <p>Am Montag, den 13. Januar 1913 spricht Bahr in Zürich beim Lesezirkel Hottingen im
                   kleinen Saal der Tonhalle.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1925-01-21" xml:id="node28090">
                <head>Altweibersommer</head>
@@ -22367,7 +22373,7 @@
                   Première von »Die tiefe Natur« fand zur selben Zeit, am 20. Dezember 1906 am
                   Deutschen Volkstheater in Wien statt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1906-11-29" xml:id="node28074">
                <head>Der arme Narr</head>
@@ -22456,7 +22462,7 @@
                   </quote>
                </p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1901-11-23" xml:id="node28069">
                <head>Der Krampus</head>
@@ -22612,7 +22618,7 @@
                   abdecken, erscheinen sie erst 1922 in Buchform, diesmal wiederum bei einem neuen
                   Verleger, Haas &amp; Grabherr in Leipzig.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Tagebuecher" when="1920-08-01" xml:id="node28057">
                <head>1919</head>
@@ -22623,7 +22629,7 @@
                   am 3. Dezember 1918 und endet bereits im November 1919. Erschienen im Sommer
                   1920.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Tagebuecher" when="1919-06-15" xml:id="node28056">
                <head>1918</head>
@@ -22659,7 +22665,7 @@
                   Dezember 1908 hatte er es komplett an Cassirer geschickt, Nachträge dann am 9.
                   Jänner.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1903-11-06" xml:id="node28053">
                <head>Unter sich</head>
@@ -22858,7 +22864,7 @@
                   Wien, Regie Emmerich Bukovics, die Hauptrollen spielten Helene Odilon und Leopold
                   Kramer. Gedruckt erscheint es 1899 bei S. Fischer in Berlin.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1896-09-22" xml:id="node28039">
                <head>Juana</head>
@@ -23040,7 +23046,7 @@
                <p>Bahrs letzter Roman, »Österreich in Ewigkeit« erscheint zum Jahresende 1929 bei F.
                   Borgmeyer in Hildesheim.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="LiterarischeProsa" when="1927-10-01" xml:id="node28028">
                <head>Der inwendige Garten</head>
@@ -23060,7 +23066,7 @@
                   Buchform erschienen Texten mit zwei neueren zusammen. Stefan Zweig verfasst ein
                   Vorwort.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="LiterarischeProsa" when="1919-04-03" xml:id="node28026">
                <head>Die Rotte Korahs</head>
@@ -23172,7 +23178,7 @@
                <p>Im Sommer 1899 erschien mit »Die schöne Frau« ein weiterer Band mit Erzählungen
                   bei S. Fischer in Berlin.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="LiterarischeProsa" when="1897-03-27" xml:id="node28018">
                <head>Theater (Roman)</head>
@@ -23182,7 +23188,7 @@
                   Liebesgeschichte, vor allem aber das Ende derselben, die sich zwischen einem
                   verheirateten Autor und einer Schauspielerin abspielt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="LiterarischeProsa" when="1894-09-01" xml:id="node28017">
                <head>Caph</head>
@@ -23204,7 +23210,7 @@
                <p>Bahrs zweiter literarischer Sammelband ist mit »Dora« betitelt und vermutlich im
                   November 1892, auf 1893 vordatiert, erschienen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="LiterarischeProsa" when="1893-01-19" xml:id="node28015">
                <head>Neben der Liebe</head>
@@ -23231,7 +23237,7 @@
                   Zoberbier in Berlin und wurde am 3. Jänner 1891 verboten, die 2. Auflage wurde
                   eingestampft.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="LiterarischeProsa" when="1890-11-01" xml:id="node28013">
                <head>Die gute Schule</head>
@@ -23241,7 +23247,7 @@
                   entstand während Bahrs Reise durch Südfrankreich, Spanien und Marokko und erschien
                   im Herbst 1890 bei S. Fischer in Berlin.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1933-07-19" xml:id="node28012">
                <head>Demenz</head>
@@ -23250,7 +23256,7 @@
                   Zeitungsmeldungen, dass Bahr dement geworden sei. Sein Zustand verschlechtert sich
                   zusehends.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" when="1905-11-27" xml:id="node28011">
                <head>Hoftheater München</head>
@@ -23553,7 +23559,7 @@
                   gleichen Eintrag, für das Jahr 1898 passiert ein Fehler: Anstatt die neue Adresse
                   anzugeben, wird nur die neue Hausnummer zu #37 ausgetauscht.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" when="1894-05-08" xml:id="node27996">
                <head>Lammgasse 3</head>
@@ -23609,7 +23615,7 @@
                <p>Am 1. Jänner 1893 übernimmt Bahr von Ludwig Ganghofer die Berichterstattung über
                   das Burgtheater und Volkstheater bei der Deutschen Zeitung.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" when="1891-11-28" xml:id="node27993">
                <head>Wien, Heumarkt 9</head>
@@ -23617,7 +23623,7 @@
                <p>Am 28. November 1891 übersiedelt Bahr für längere Zeit nach Wien. Seine erste
                   Adresse: Heumarkt 9, 3. Stiege, 3. Stock, Tür 37.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1891-09-01" to="1891-11-28" xml:id="node27992">
                <head>Linz</head>
@@ -23771,7 +23777,7 @@
                <p>1922 legte Bahr diese kleine Abhandlung zur Schauspielkunst vor, die in Leipzig
                   von Dürer &amp; Weber gedruckt wurde. Die Widmung stammt vom Jänner 1922.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theaterschriften" when="1920-06-14" xml:id="node27975">
                <head>Burgtheater</head>
@@ -23841,7 +23847,7 @@
                   1902 bei Albert Langen in München und umfassen die Zeit vom Winter 1900 bis zum
                   Sommer 1901.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theaterschriften" when="1899-05-01" xml:id="node27969">
                <head>Wiener Theater</head>
@@ -23849,7 +23855,7 @@
                <p>Die Sammlung von Theaterrezensionen »Wiener Theater« erschien im Frühling 1899 bei
                   S. Fischer in Berlin.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1912-06-19" to="1912-08-20" xml:id="node27966">
                <head>Bayreuther Festspiele</head>
@@ -23889,7 +23895,7 @@
                   ist ungeklärt, erst für eine Neuauflage oder einen neuen Vertrieb 1922 sind
                   Rezensionen gesichert.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Theater" when="1909-12-23" xml:id="node27964">
                <head>Das Konzert</head>
@@ -23932,7 +23938,7 @@
                <p>Im Dezember 1929, Bahr ist nunmehr 66 Jahre alt, erscheint bei Borgmeyer, dem
                   Verleger seines Alterswerks, Bahrs letzte Sammlung mit Aufsätzen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="KritischeSchriften" when="1927-11-01" xml:id="node27961">
                <head>Himmel auf Erden</head>
@@ -23954,7 +23960,7 @@
                   Aufsatz für die »Preussischen Jahrbücher« 1926 auf die gegenwärtige spanische
                   Literatur ein, die zudem im Sommer noch als Sonderdruck veröffentlicht wird.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="KritischeSchriften" when="1922-12-31" xml:id="node27959">
                <head>Sendung des Künstlers</head>
@@ -24084,7 +24090,7 @@
                <p>Diese Zusammenstellung von bereits veröffentlichten Goethe-Texten erschien im
                   Sommer 1917.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="KritischeSchriften" when="1916-05-24" xml:id="node27950">
                <head>Expressionismus</head>
@@ -24144,7 +24150,7 @@
                   Bahr schreiben Dmitri Mereschkowski und der bereits 1910 verstorbene Otto Julius
                   Bierbaum. Erschienen im Dezember 1913, auf 1914 vordatiert.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="KritischeSchriften" when="1913-06-29" xml:id="node27946">
                <head>Das Hermann Bahr-Buch</head>
@@ -24167,7 +24173,7 @@
                   verschiedene Aspekte von Wagners Opern in Bayreuth stammen von Bahrs Frau Anna
                   Mildenburg, die Texte vier bis neun von Bahr.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="KritischeSchriften" when="1912-09-13" xml:id="node27944">
                <head>Inventur</head>
@@ -24415,7 +24421,7 @@
                <p>Im Oktober 1889 erscheint diese erste Sammlung mit Aufsätzen Bahrs in Buchform,
                   vordatiert auf 1890.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="KritischeSchriften" when="1887-11-01" xml:id="node27925">
                <head>Henrik Ibsen</head>
@@ -24802,7 +24808,7 @@
                   Auftritt zu absolvieren hat. Bahrs erster Auftritt in Wien seit 1911 fällt aber
                   wegen »Kohlennot« für's erste aus und wird am 26. April nachgeholt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Orte" from="1905-07-07" to="1905-08-01" xml:id="node27899">
                <head>Niederlande</head>
@@ -24871,7 +24877,7 @@
                   am 20. Dezember 1906 am Deutschen Theater in Berlin statt. Nach sechs Aufführungen
                   abgesetzt.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Ereignis" from="1906-11-01" to="1906-12-25" xml:id="node27894">
                <head>Bei Max Reinhardt, Berlin</head>
@@ -24969,7 +24975,7 @@
                   Feuilletons, aber auch einige Buchbesprechungen und Vorabdrucke, die bis Mai 1932
                   erscheinen.</p>
                <!--</desc>-->
-               
+
             </event>
             <event type="Tagebuecher" when="1916-12-24" xml:id="node27887">
                <head>Das »Tagebuch« erscheint im Neuen Wiener Journal</head>
