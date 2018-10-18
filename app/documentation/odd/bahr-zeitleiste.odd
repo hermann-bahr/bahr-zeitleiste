@@ -115,7 +115,7 @@
           <attDef ident="resp" mode="delete"/>
           <attDef ident="source" mode="delete"/>
           <attDef ident="default" mode="change">
-            <valList type="closed">
+            <valList type="closed" mode="replace">
               <valItem ident="true"/>
               <valItem ident="false"/>
             </valList>
@@ -124,7 +124,7 @@
           <attDef ident="subtype" mode="delete"/>
           <attDef ident="sortKey" mode="delete"/>
           <attDef ident="status" mode="change">
-            <valList type="closed">
+            <valList type="closed" mode="replace">
               <valItem ident="draft"/>
             </valList>
           </attDef>
@@ -260,7 +260,7 @@
           
           
           <attDef ident="type" mode="change" usage="req">
-            <valList type="closed">
+            <valList type="closed" mode="replace">
               <valItem ident="Person">
                 <desc>Person</desc>
               </valItem>
@@ -690,7 +690,7 @@
           <attDef ident="mimeType" mode="delete"/>
           
           <attDef ident="type" mode="change">
-            <valList type="closed">
+            <valList type="closed" mode="replace">
               <valItem ident="URL"/>
             </valList>
           </attDef>
