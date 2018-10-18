@@ -221,7 +221,6 @@
           <attDef ident="source" mode="delete"/>
           <attDef ident="calendar" mode="delete"/>
           <attDef ident="period" mode="delete"/>
-          
           <attDef ident="when" mode="change" usage="rec">
             <datatype>
               <dataRef key="teidata.temporal.w3c"/>
@@ -300,6 +299,19 @@
           <attDef ident="key" mode="delete"/>
           <attDef ident="ref" mode="delete"/>
           <attDef ident="sortKey" mode="delete"/>
+          
+          <attDef ident="unit" mode="delete"/>
+          <attDef ident="quantity" mode="delete"/>
+          <attDef ident="extent" mode="delete"/>
+          <attDef ident="precision" mode="delete"/>
+          <attDef ident="scope" mode="delete"/>
+          <attDef ident="atLeast" mode="delete"/>
+          <attDef ident="atMost" mode="delete"/>
+          <attDef ident="min" mode="delete"/>
+          <attDef ident="max" mode="delete"/>
+          <attDef ident="confidence" mode="delete"/>
+          
+          
           <!-- where -->        
         </attList>
         <model behaviour="block"/>
