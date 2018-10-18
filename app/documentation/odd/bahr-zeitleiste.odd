@@ -18,7 +18,7 @@
     <body>
       <schemaSpec ident="bahr-zeitleiste" start="TEI">
         <moduleRef key="header" include="encodingDesc fileDesc projectDesc publicationStmt sourceDesc teiHeader titleStmt"/>
-        <moduleRef key="core" include="author head p quote ref resp respStmt title"/>
+        <moduleRef key="core" include="author bibl head p quote ref resp respStmt title note lb"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" include="TEI body text"/>
         <moduleRef key="namesdates" include="event listEvent persName"/>
