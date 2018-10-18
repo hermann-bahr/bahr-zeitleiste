@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:teix="http://www.tei-c.org/ns/Examples" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-10-18T21:26:28Z. .
+Schema generated from ODD source 2018-10-18T21:34:55Z. .
 TEI Edition: Version 3.2.0. Last updated on
 	10th July 2017, revision 0fcf651
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
@@ -907,6 +907,14 @@ belongs, but this <sch:name/> element has no textual content.</sch:assert>
          <ref name="model.placeNamePart_sequenceRepeatable"/>
       </oneOrMore>
    </define>
+   <define name="model.publicationStmtPart.agency">
+      <notAllowed/>
+   </define>
+   <define name="model.publicationStmtPart.detail">
+      <choice>
+         <ref name="model.ptrLike"/>
+      </choice>
+   </define>
    <define name="model.quoteLike">
       <choice>
          <ref name="quote"/>
@@ -1289,6 +1297,7 @@ belongs, but this <sch:name/> element has no textual content.</sch:assert>
          <group>
             <group>
                <ref name="titleStmt"/>
+               <ref name="publicationStmt"/>
             </group>
             <oneOrMore>
                <ref name="sourceDesc"/>
@@ -1307,6 +1316,24 @@ belongs, but this <sch:name/> element has no textual content.</sch:assert>
                <ref name="model.respLike"/>
             </zeroOrMore>
          </group>
+      </element>
+   </define>
+   <define name="publicationStmt">
+      <element name="publicationStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
+         <choice>
+            <oneOrMore>
+               <group>
+                  <ref name="model.publicationStmtPart.agency"/>
+                  <zeroOrMore>
+                     <ref name="model.publicationStmtPart.detail"/>
+                  </zeroOrMore>
+               </group>
+            </oneOrMore>
+            <oneOrMore>
+               <ref name="model.pLike"/>
+            </oneOrMore>
+         </choice>
       </element>
    </define>
    <define name="sourceDesc">
