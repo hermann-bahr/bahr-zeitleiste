@@ -241,7 +241,7 @@
               <dataRef key="teidata.temporal.w3c"/>
             </datatype>
           </attDef>
-          
+          <attDef ident="when-iso" mode="delete"/>
           <attDef ident="notBefore-iso" mode="delete"/>
           <attDef ident="notAfter-iso" mode="delete"/>
           <attDef ident="from-iso" mode="delete"/>
