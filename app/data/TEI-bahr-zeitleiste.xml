@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/martinantonmueller/bahr-zeitleiste/master/odd/out/bahr-zeitleiste.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/martinantonmueller/bahr-zeitleiste/master/odd/out/bahr-zeitleiste.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zeitleiste">
    <teiHeader>
       <fileDesc>
@@ -30,7 +29,7 @@
                Ende der Projektlaufzeit eingestellt. 2018 wurden die Daten exportiert und in TEI
                umgewandelt. Als solche lassen sie sich für eine neue Version der Zeitleiste
                verwenden.</p>
-            <p>Dazu zwei Einschränkungen: Die Zeitleiste war stets ein Nebenprodukt, eine
+            <p>Dazu zwei Einschränkungen: Die Zeitleiste war stets ein Nebenprodukt, ein
                ordentliches Lektorat gab es nie. Zweitens: In der ursprünglichen Präsentation wurden
                die Daten nicht eingeblendet, so dass auch ungefähre Daten mit fiktiven, exakten
                Daten angegeben wurden. (Deshalb ist das eigentliche Datum stets im Fließtext
