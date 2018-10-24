@@ -1,0 +1,33 @@
+swagger: "2.0"
+info:
+  description: "Hermann Bahr-Zeitleiste"
+  version: "0.1"
+  title: "Hermann Bahr-Zeitleiste"
+  termsOfService: "https://bahr-zeitleiste.acdh-dev.oeaw.ac.at/impressum"
+  contact:
+    email: "ingo.boerner@oeaw.ac.at"
+host: "bahr-zeitleiste.acdh-dev.oeaw.ac.at"
+basePath: "/api/v1.0"
+tags:
+- name: "info"
+  description: "About the API"
+  externalDocs:
+    #description: "Documentation"
+    url: "https://bahr-zeitleiste.acdh-dev.oeaw.ac.at"
+schemes:
+- "https"
+paths:
+  /:
+    get:
+      tags:
+      - "info"
+      description: "Get Info on the API"
+      produces:
+      - "application/json"
+      - "text/html"
+      responses:
+        400:
+          description: "not implemented"
+  
+    
+    
