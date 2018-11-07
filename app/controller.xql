@@ -28,6 +28,15 @@ else if (ends-with($exist:resource, ".html")) then
 			<forward url="{$exist:controller}/modules/view.xql"/>
 		</error-handler>
     </dispatch>
+    
+(: /api :)    
+else if (starts-with($exist:path, '/api')) then
+            <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+                <forward url="{$exist:controller}/modules/api.xql"/>
+                <set-attribute name="path" value="{$exist:path}"/>
+            </dispatch>
+
+
 (: Resource paths starting with $shared are loaded from the shared-resources app :)
 else if (contains($exist:path, "/$shared/")) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">

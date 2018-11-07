@@ -8,26 +8,74 @@ info:
     email: "ingo.boerner@oeaw.ac.at"
 host: "bahr-zeitleiste.acdh-dev.oeaw.ac.at"
 basePath: "/api/v1.0"
-tags:
-- name: "info"
-  description: "About the API"
-  externalDocs:
-    #description: "Documentation"
-    url: "https://bahr-zeitleiste.acdh-dev.oeaw.ac.at"
+externalDocs:
+  description: "Code on github"
+  url: "https://github.com/martinantonmueller/bahr-zeitleiste"
 schemes:
 - "https"
 paths:
   /:
     get:
-      tags:
-      - "info"
-      description: "Get Info on the API"
+      summary: "Get Info on the API"
       produces:
       - "application/json"
       - "text/html"
       responses:
         400:
           description: "not implemented"
-  
-    
-    
+  /id:
+    get:
+      summary: "Return a list of IDs"
+      produces: 
+      - "application/json"
+      parameters: 
+      - name: "q"
+        in: "query"
+        type: "string"
+        description: "Filter on Query"
+      responses:
+        200:
+          description: "Success!"
+        400:
+          description: "not implemented"
+  /id/{id}:
+    get:
+      summary: "provide a representation of the entity/resource identified by {id}"
+      produces: 
+      - "application/tei+xml"
+      parameters: 
+      - name: "id"
+        in: "path"
+        type: "string"
+        required: true
+        description: "ID of the entity/resource to return"
+      responses:
+        200:
+          description: "Success!"
+  /index:
+    get:
+      summary: "list all available indexes"
+      produces: 
+      - "application/json"
+      responses:
+        200:
+          description: "Success!"
+  /index/{index}:
+    get:
+      summary: "list all values valid for given index" 
+      produces: 
+      - "application/tei+xml"
+      - "application/json"
+      parameters: 
+        - name: "index"
+          in: "path"
+          required: true
+          type: "array"
+          items:
+            enum: 
+             - "event"
+             - "person"
+             - "place"
+      responses:
+        200:
+          description: "Success!"

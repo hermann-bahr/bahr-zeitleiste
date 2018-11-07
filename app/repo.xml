@@ -13,6 +13,6 @@
     <target>bahr-zeitleiste</target>
     <prepare>pre-install.xql</prepare>
     <finish/>
-    <permissions user="bahr-zeitleiste" group="bahr-zeitleiste" mode="rw-rw-r--"/>
-<deployed>2018-10-18T21:39:33.683+02:00</deployed>
+    <permissions xmlns:_5="http://www.w3.org/2000/xmlns/" xmlns:repo="http://exist-db.org/xquery/repo" password="" user="bahr-zeitleiste" group="bahr-zeitleiste" mode="rw-rw-r--" _5:#unknown="http://exist-db.org/xquery/repo"/>
+
 </meta>
